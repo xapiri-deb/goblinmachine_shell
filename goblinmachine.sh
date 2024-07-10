@@ -12,10 +12,12 @@ selecao_item=""
 # Menu de opçõe
 echo " Calculadora de consumíveis Goblin Machine!"
     listar_menu() {
-    echo " - Menu -"
-    echo " show - Mostrar lista de itens"
-    echo " list - Fazer lista de materiais"
-    echo " exit - Sair"
+    echo " ------ Menu ------"
+    echo " Comando - Descrição"
+    echo ""
+    echo "  show   - Mostra lista de itens"
+    echo "  list   - Faz uma lista de materiais"
+    echo "  exit   - Encerrar a sessão"
     }
 echo " v$version"
 
@@ -31,7 +33,6 @@ echo ""
             echo ""
             cat itens.txt
             read -p " Selecione um dos itens acima: " selecao_item
-            echo ""
         elif [[ $menu_inicial == "list" ]]; then
             echo " Monta uma lista de reagentes"
         elif [[ $menu_inicial == "exit" ]]; then
