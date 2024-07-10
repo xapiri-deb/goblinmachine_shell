@@ -1,24 +1,25 @@
-Flask of Fortification
-Flask of Mighty Restoration
-Flask of Relentless Assault
-Flask of Blinding Light
-Flask of Pure Death
-Flask of Chromatic Wonder
-Flask of Distilled Wisdom
-Flask of Supreme Power
-Adept's Elixir
-Elixir of Demonslaying
-Elixir of Draenic Wisdom
-Elixir of Healing Power
-Elixir of Ironskin
-Elixir of Major Agility
-Elixir of Major Defense
-Elixir of Major Firepower
-Elixir of Major Fortitude
-Elixir of Major Frost Power
-Elixir of Major Mageblood
-Elixir of Major Shadow Power
-Elixir of Major Strength
-Elixir of Mastery
-Fel Strength Elixir
-Drums of Battle
+Flask of Fortification          |
+Flask of Mighty Restoration     |
+Flask of Relentless Assault     |
+Flask of Blinding Light         |
+Flask of Pure Death             |
+Flask of Chromatic Wonder       |
+Flask of Distilled Wisdom       |
+Flask of Supreme Power          |
+Adept's Elixir                  |    
+Elixir of Demonslaying          |
+Elixir of Draenic Wisdom        |
+Elixir of Healing Power         |
+Elixir of Ironskin              |
+Elixir of Major Agility         |
+Elixir of Major Defense         |        
+Elixir of Major Firepower       |
+Elixir of Major Fortitude       |   
+Elixir of Major Frost Power     |   
+Elixir of Major Mageblood       |   
+Elixir of Major Shadow Power    |   
+Elixir of Major Strength        |   
+Elixir of Mastery               |   
+Fel Strength Elixir             |
+Drums of Battle                 |
+
