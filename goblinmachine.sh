@@ -30,7 +30,6 @@ echo ""
             echo " Lista de consumíveis:"
             echo ""
             cat itens.txt
-            echo ""
             read -p " Selecione um dos itens acima: " selecao_item
             echo ""
         elif [[ $menu_inicial == "list" ]]; then
