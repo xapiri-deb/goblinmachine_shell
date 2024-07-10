@@ -17,7 +17,7 @@ echo " Calculadora de consumíveis Goblin Machine!"
     echo ""
     echo "  show   - Mostra lista de itens"
     echo "  list   - Faz uma lista de materiais"
-    echo "  exit   - Encerrar a sessão"
+    echo "  exit   - Encerrar a sessão"e
     }
 echo " v$version"
 
