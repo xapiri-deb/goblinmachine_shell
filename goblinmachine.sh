@@ -7,41 +7,51 @@ version=0.0.1
 
 # Variaveis
 menu_inicial=""
-selecao_item=""
+cod_receita=""
 
 # Menu de opçõe
 echo " Calculadora de consumíveis Goblin Machine!"
     listar_menu() {
-    echo " ------ Menu ------"
-    echo " Comando - Descrição"
+    echo " -------- Menu ---------"
+    echo " Comando   - Descrição"
+    echo " -----------------------"
+    echo " receitas  - Mostra a lista de itens consumíveis"
+    echo " montar    - Cria uma lista de reagentes"
+    echo " exit      - Encerra a sessão"
     echo ""
-    echo "  show   - Mostra lista de itens"
-    echo "  list   - Faz uma lista de materiais"
-    echo "  exit   - Encerrar a sessão"e
     }
-echo " v$version"
+echo " v$version"s
 
 # Seleção no Menu Inicial
 while true; do
-echo ""
+
 listar_menu
-echo ""
+
     read -p " Digite uma das opções acima: " menu_inicial
-    echo ""
-        if [[ $menu_inicial == "show" ]]; then
+    
+        if [[ $menu_inicial == "receitas" ]]; then
+            
             echo " Lista de consumíveis:"
             echo ""
             cat itens.txt
-            read -p " Selecione um dos itens acima: " selecao_item
-        elif [[ $menu_inicial == "list" ]]; then
+
+        elif [[ $menu_inicial == "montar" ]]; then
+            
             echo " Monta uma lista de reagentes"
+            read -p " Informe o código de uma das receitas: " cod_receita
+        
         elif [[ $menu_inicial == "exit" ]]; then
+        
             echo " Saindo ..."
             echo ""
             break
+        
         else
+        
             echo "Opção desconhecida, escolha novamente uma das abaixo:"
+            echo ""
         fi
+
 done
 
 exit
