@@ -8,24 +8,22 @@ version=0.0.1
 # Variaveis
 menu_inicial=""
 cod_receita=""
+ver_receitas=""
 
-# Menu de opçõe
+# Menu de opções
 echo " Calculadora de consumíveis Goblin Machine!"
-    
-    listar_menu() {
-    
-    echo " -------- Menu ---------"
-    echo " Comando   - Descrição"
-    echo " -----------------------"
-    echo " receitas  - Mostra a lista de itens consumíveis"
-    echo " montar    - Cria uma lista de reagentes"
-    echo " exit      - Encerra a sessão"
-    echo ""
-    
-    }
-    
-echo " v$version"s
+echo " v$version"s    
 
+listar_menu() {
+echo " -------- Menu ---------"
+echo " Comando   - Descrição"
+echo " -----------------------"
+echo " receitas  - Mostra a lista de itens consumíveis"
+echo " montar    - Cria uma lista de reagentes"
+echo " exit      - Encerra a sessão"
+echo ""
+}
+    
 # Seleção no Menu Inicial
 while true; do
 
@@ -34,6 +32,11 @@ listar_menu
     read -p " Digite uma das opções acima: " menu_inicial
     
         if [[ $menu_inicial == "receitas" ]]; then
+
+            read -p " Como deseja visualizar as receitas?" ver_receitas
+            
+            if [[ $ver_receitas == ]]
+
             
             echo " Lista de consumíveis:"
             echo ""

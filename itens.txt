@@ -45,10 +45,10 @@ Food	Skullfish Soup - (20 spell crit 20 spi)
 Food	Broiled Bloodfin - (8 all resi)
 Food	Kibler's Bits - (20 str 20 spi) [pet]
 Food	Sporeling Snack - (20 stm 20 spi) [pet]
-Oil	    Brilliant Mana Oil - (25 heal 12mp5)
-Oil	    Superior Mana Oil - (14 mp5)
+Oil     Brilliant Mana Oil - (25 heal 12mp5)
+Oil     Superior Mana Oil - (14 mp5)
 Oil     Brilliant Wizard Oil - (36 spell dmg 14 spell crit)
-Oil	    Superior Wizard Oil - (42 spell dmg)
+Oil     Superior Wizard Oil - (42 spell dmg)
 Herb	Nightmare Seed - (2000 hp 30 sec)
 Herb	Flame Cap - (80 fire spell dmg 40 fire dmg/hit)
 Stone	Greater Ward of Shielding - (absorbs 4000 dmg)
