@@ -31,7 +31,7 @@ Potion	Super Healing Potion - (1500 to 2500 hp)
 Food	Fisherman's Feast - (30 stm 20 spi)
 Food	Spicy Crawdad - (30 stm 20 spi)
 Food	Golden Fish Sticks - (44 healing 20 spi)
-Food	Blackened Sporefish - (8 mp5 20 stm)
+Food	Blackened Sporefish - (8 mp5 stm)
 Food	Roasted Clefthoof - (20 str 20 spi)
 Food	Smoked Desert Dumplings - (20 str)
 Food	Ravager Dog - (40 atk power 20 spi)
@@ -42,19 +42,19 @@ Food	Blackened Basilisk - (23 spell dmg 20 spi)
 Food	Poached Bluefish - (23 spell dmg 20 spi)
 Food	Crunchy Serpent - (23 spell dmg 20 spi)
 Food	Skullfish Soup - (20 spell crit 20 spi)
-Food	Broiled Bloodfin - (8 all resii)
+Food	Broiled Bloodfin - (8 all resi)
 Food	Kibler's Bits - (20 str 20 spi) [pet]
 Food	Sporeling Snack - (20 stm 20 spi) [pet]
-Oil	Superior Wizard Oil
-Oil	Superior Mana Oil
-Oil	Brilliant Wizard Oil
-Oil	Brilliant Mana Oil
-Herb	Nightmare Seed
-Herb	Flame Cap
-Stone	Greater Ward of Shielding
-Stone	Greater Rune of Warding
-Stone	Adamantite Sharpening Stone
-Stone	Adamantite Weightstone
-Drums	Drums of Battle
-Drums	Drums of Restoration
-Drums	Drums of War
+Oil	    Brilliant Mana Oil - (25 heal 12mp5)
+Oil	    Superior Mana Oil - (14 mp5)
+Oil     Brilliant Wizard Oil - (36 spell dmg 14 spell crit)
+Oil	    Superior Wizard Oil - (42 spell dmg)
+Herb	Nightmare Seed - (2000 hp 30 sec)
+Herb	Flame Cap - (80 fire spell dmg 40 fire dmg/hit)
+Stone	Greater Ward of Shielding - (absorbs 4000 dmg)
+Stone	Greater Rune of Warding - (25% absorbs 400 dmg)
+Stone	Adamantite Sharpening Stone - (12 meele dmg 14 meele crit)
+Stone	Adamantite Weightstone - (12 meele dmg 14 meele crit)
+Drums	Drums of Battle - (80 spell haste 30 sec)
+Drums	Drums of Restoration - (600 hp and mana 15 sec)
+Drums	Drums of War - (60 atk power 30 spell dmg 30 sec)

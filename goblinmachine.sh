@@ -11,7 +11,9 @@ cod_receita=""
 
 # Menu de opçõe
 echo " Calculadora de consumíveis Goblin Machine!"
+    
     listar_menu() {
+    
     echo " -------- Menu ---------"
     echo " Comando   - Descrição"
     echo " -----------------------"
@@ -19,7 +21,9 @@ echo " Calculadora de consumíveis Goblin Machine!"
     echo " montar    - Cria uma lista de reagentes"
     echo " exit      - Encerra a sessão"
     echo ""
+    
     }
+    
 echo " v$version"s
 
 # Seleção no Menu Inicial
