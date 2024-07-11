@@ -1,25 +1,60 @@
-Flask of Fortification          |
-Flask of Mighty Restoration     |
-Flask of Relentless Assault     |
-Flask of Blinding Light         |
-Flask of Pure Death             |
-Flask of Chromatic Wonder       |
-Flask of Distilled Wisdom       |
-Flask of Supreme Power          |
-Adept's Elixir                  |    
-Elixir of Demonslaying          |
-Elixir of Draenic Wisdom        |
-Elixir of Healing Power         |
-Elixir of Ironskin              |
-Elixir of Major Agility         |
-Elixir of Major Defense         |        
-Elixir of Major Firepower       |
-Elixir of Major Fortitude       |   
-Elixir of Major Frost Power     |   
-Elixir of Major Mageblood       |   
-Elixir of Major Shadow Power    |   
-Elixir of Major Strength        |   
-Elixir of Mastery               |   
-Fel Strength Elixir             |
-Drums of Battle                 |
-
+Flask	Flask of Fortification - (500 hp 10 def)
+Flask	Flask of Chromatic Wonder - (35 all resi 18 all stats)
+Flask	Flask of Mighty Restoration - (25 mp5)
+Flask	Flask of Distilled Wisdom - (65 int)
+Flask	Flask of Relentless Assault - (120 atk power)
+Flask	Flask of Blinding Light - (80 arcane holy nature dmg)
+Flask	Flask of Pure Death - (80 shadow fire frost dmg)
+Flask	Flask of Supreme Power - (70 spell dmg)
+Elixir	Elixir of Major Defense - (550 armor)
+Elixir	Elixir of Major Fortitude - (250 hp 10 hp5)
+Elixir	Elixir of Mastery - (15 all stats)
+Elixir	Elixir of Ironskin - (30 resi)
+Elixir	Elixir of Healing Power - (50 healing)
+Elixir	Elixir of Major Mageblood - (16 mp5)
+Elixir	Elixir of Draenic Wisdom - (30 int 30 spirit)
+Elixir	Elixir of Major Agility - (35 agi 20 crit)
+Elixir	Elixir of Major Strength - (35 str)
+Elixir	Fel Strength Elixir - (90 atk power -10 stm)
+Elixir	Elixir of Demonslaying - (265 atk power vs demons)
+Elixir	Adept's Elixir - (24 spell dmg 24 spell crit)
+Elixir	Elixir of Major Firepower - (55 fire dmg)
+Elixir	Elixir of Major Frost Power - (55 frost dmg)
+Elixir	Elixir of Major Shadow Power - (55 shadow dmg)
+Potion	Ironshield Potion - (2500 armor 2min)
+Potion	Haste Potion - (400 haste rating for 15 sec)
+Potion	Insane Strength Potion - (120 str -75 def 15 sec)
+Potion	Heroic Potion - (70 str 700 hp for 15 sec)
+Potion	Destruction Potion - (120 spell dmg 2% crit rating for 15 sec)
+Potion	Super Mana Potion - (1800 to 3000 mana)
+Potion	Super Healing Potion - (1500 to 2500 hp)
+Food	Fisherman's Feast - (30 stm 20 spi)
+Food	Spicy Crawdad - (30 stm 20 spi)
+Food	Golden Fish Sticks - (44 healing 20 spi)
+Food	Blackened Sporefish - (8 mp5 20 stm)
+Food	Roasted Clefthoof - (20 str 20 spi)
+Food	Smoked Desert Dumplings - (20 str)
+Food	Ravager Dog - (40 atk power 20 spi)
+Food	Grilled Mudfish - (20 agi 20 spi)
+Food	Warp Burger - (20 agi 20 spi)
+Food	Spicy Hot Talbuk - (20 hit rating 20 spi)
+Food	Blackened Basilisk - (23 spell dmg 20 spi)
+Food	Poached Bluefish - (23 spell dmg 20 spi)
+Food	Crunchy Serpent - (23 spell dmg 20 spi)
+Food	Skullfish Soup - (20 spell crit 20 spi)
+Food	Broiled Bloodfin - (8 all resii)
+Food	Kibler's Bits - (20 str 20 spi) [pet]
+Food	Sporeling Snack - (20 stm 20 spi) [pet]
+Oil	Superior Wizard Oil
+Oil	Superior Mana Oil
+Oil	Brilliant Wizard Oil
+Oil	Brilliant Mana Oil
+Herb	Nightmare Seed
+Herb	Flame Cap
+Stone	Greater Ward of Shielding
+Stone	Greater Rune of Warding
+Stone	Adamantite Sharpening Stone
+Stone	Adamantite Weightstone
+Drums	Drums of Battle
+Drums	Drums of Restoration
+Drums	Drums of War
