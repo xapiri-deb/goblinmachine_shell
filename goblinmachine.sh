@@ -91,7 +91,7 @@ while true; do
             while true; do
                 
                 MenuReceitas
-            ()
+                
                 if [[ $mais_receita == "s" ]]; then
 
                     continue
