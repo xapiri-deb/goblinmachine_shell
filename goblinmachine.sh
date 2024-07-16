@@ -1,26 +1,55 @@
 #!/bin/bash
 #
-# goblinmachine.sh - Calcula o número de reagentes de consumíveis no WoW TBC 2.4.3
+# Goblin Machine Shell
+#
+# goblinmachine.sh - Script para calcular o número de reagentes de consumíveis no WoW TBC 2.4.3
 #
 # site          : https://github.com/xapiri-deb
 # autor         : ghost-deb
 # e-mail        : ???
 # 
 # Goblin Machine Shell é uma calculadora com banco de dados construida em shell
-# para realizar cálculo de materiais necessário na produção de itens consumíveis
-# em World of Warcraft The Burned Crusade 2.4.3 (WoW TBC 2.4.3)
+# para calcular os materiais necessário na produção de itens consumíveis
+# em World of Warcraft: The Burned Crusade 2.4.3 (WoW TBC 2.4.3)
 #
-# Licença: GNU General Public License v3.0
+# Histórico de Versões:
+# 
+# [0.0.1] - 2024-07-09
+# - Início da Estrutura do código.
+# 
+# Licença: 
+#
+# GNU General Public License v3.0
+#
+# Este arquivo faz parte do projeto Goblin Machine Shell.
+# 
+# Goblin Machine Shell é um software livre: você pode redistribuí-lo e/ou modificá-lo
+# sob os termos da Licença Pública Geral GNU, conforme publicada pela
+# Free Software Foundation, tanto a versão 3 da Licença quanto (à sua opção)
+# qualquer versão posterior.
+# 
+# Goblin Machine Shell é distribuído na esperança de que seja útil,
+# mas SEM NENHUMA GARANTIA; sem uma garantia implícita de ADEQUAÇÃO a qualquer
+# MERCADO ou APLICAÇÃO EM PARTICULAR. Veja a
+# Licença Pública Geral GNU para mais detalhes.
+# 
+# Você deveria ter recebido uma cópia da Licença Pública Geral GNU junto com o
+# Goblin Machine Shell. Se não, veja <https://www.gnu.org/licenses/>.
+# 
+# Resumo da Licença:
+# - Você pode livremente usar, modificar e distribuir este software.
+# - Este software é fornecido "como está", sem garantias ou condições de qualquer tipo.
+# - Veja a Licença Pública Geral GNU para mais detalhes.
+#
 
 clear
 
-# Calculadora de consumiveis para WoW TBC 2.4.3
 version=0.0.1
 
 # Variaveis
 menu_inicial=""
 cod_receita=""
-needmore_receita=""
+mais_receita=""
 nx_receita=""
 vcod_receita=()
 vnx_receita=()
@@ -43,7 +72,7 @@ MenuReceitas() {
     vcod_receita+=("$cod_receita")
     read -p " Informe o número de unidades para esta receita: " nx_receita
     vnx_receita+=("$nx_receita")
-    read -p " Deseja fazer outras receitas Sim (s) Não (n)?" needmore_receita
+    read -p " Deseja fazer outras receitas Sim (s) Não (n)?" mais_receita
 }
 
 # Seleção no Menu Inicial
@@ -63,11 +92,11 @@ while true; do
                 
                 MenuReceitas
             ()
-                if [[ $needmore_receita == "s" ]]; then
+                if [[ $mais_receita == "s" ]]; then
 
                     continue
                     
-                elif [[ $needmore_receita == "n" ]]; then
+                elif [[ $mais_receita == "n" ]]; then
 
                     echo " Lista de Consumíveis solicitados"
                     echo " Calculando reagentes necessários..."
