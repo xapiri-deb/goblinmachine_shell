@@ -56,74 +56,72 @@ vnx_receita=()
 i=0
 
 # Menu de opções
-echo " Calculadora de consumíveis Goblin Machine!"
-echo " v$version"s    
+echo "Calculadora de consumíveis Goblin Machine!"
+echo "v$version"    
 
 # Lista Menu Inicial
 MenuInicial() {
-    echo " receitas - Criar lista de reagentes."
-    echo " exit     - Encerrar sessão."
-    echo ""
+    echo "receita - Criar lista de reagentes."
+    echo "exit     - Encerrar sessão."
 }
 
 # Lista Menu de Receitas
 MenuReceitas() {
-    read -p " Informe o código de uma receita: " cod_receita 
+    read -p "Informe o código de uma receita: " cod_receita 
     vcod_receita+=("$cod_receita")
-    read -p " Informe o número de unidades para esta receita: " nx_receita
+    read -p "Informe o número de unidades para esta receita: " nx_receita
     vnx_receita+=("$nx_receita")
-    read -p " Deseja fazer outras receitas Sim (s) Não (n)?" mais_receita
+    read -p "Fazer outras receitas Sim (s) ou Não (n)?" mais_receita
 }
 
-# Seleção no Menu Inicial
+# Menu Inicial
 while true; do
 
-   MenuInicial
-   
-   read -p " Digite uma das opções acima: " menu_inicial
+    MenuInicial
+    read -p "Digite uma das opções acima: " menu_inicial
     
-    if [[ $menu_inicial == "receitas" ]]; then
+    if [[ $menu_inicial == "receita" ]]; then
             
-        echo " Lista de consumíveis:"
+        echo "Lista de consumíveis:"
         cat itens.txt
-        echo " "
-                        
-            while true; do
-                
-                MenuReceitas
-                
-                if [[ $mais_receita == "s" ]]; then
 
-                    continue
+        # Menu de Receitas                   
+        while true; do
+            
+            MenuReceitas
+                
+            if [[ $mais_receita == "s" ]]; then
+
+                continue
                     
-                elif [[ $mais_receita == "n" ]]; then
+            elif [[ $mais_receita == "n" ]]; then
 
-                    echo " Lista de Consumíveis solicitados"
-                    echo " Calculando reagentes necessários..."
-                    echo "" # Imprime a lista de reagentes
-                    break
+                echo "Lista de Consumíveis solicitados"
+                    
+                # Lista de Resultados
+                for receita in "${vcod_receita[@]}"; do
+                    
+                    echo "Calculando reagentes necessários para $receita"
+                                            
+                done
+                break
 
-                else
+            else
 
-                    echo " Opção inválida... Deseja fazer outras receitas Sim (s) Não (n)?"
-                    echo ""
+                echo "Opção inválida... Deseja fazer outras receitas Sim (s) ou Não (n)?"
 
-                fi
+            fi
 
-            done
-
-        exit
-
+        done
+       
     elif [[ $menu_inicial == "exit" ]]; then
         
-        echo " Saindo ..."
-        echo ""
+        echo "Saindo ..."
         break
         
     else
         
-        echo " Opção desconhecida, escolha novamente uma das abaixo:"
-        echo ""
+        echo "Opção desconhecida, escolha novamente uma das abaixo:"
 
     fi
 
