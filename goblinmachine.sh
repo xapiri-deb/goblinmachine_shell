@@ -6,7 +6,7 @@
 #
 # site          : https://github.com/xapiri-deb
 # autor         : ghost-deb
-# e-mail        : ???
+# e-mail        : momonomono@tutanota.com
 # 
 # Goblin Machine Shell é uma calculadora com banco de dados construida em shell
 # para calcular os materiais necessário na produção de itens consumíveis
