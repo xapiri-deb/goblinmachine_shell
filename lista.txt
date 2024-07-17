@@ -1,0 +1,83 @@
+-------------------- Flask --------------------
+
+FF      Flask of Fortification          [500 hp 10 def]
+FCW     Flask of Chromatic Wonder       [35 all resi 18 all stats]
+FMR	    Flask of Mighty Restoration     [25 mp5]
+FDW	    Flask of Distilled Wisdom       [65 int]
+FRA	    Flask of Relentless Assault     [120 atk power]
+FBL	    Flask of Blinding Light         [80 arcane holy nature dmg]
+FPD	    Flask of Pure Death             [80 shadow fire frost dmg]
+FSP	    Flask of Supreme Power          [70 spell dmg]
+
+-------------------- Elixir --------------------
+
+EMD	    Elixir of Major Defense         [550 armor]
+EMF	    Elixir of Major Fortitude       [250 hp 10 hp5]
+EM	    Elixir of Mastery               [15 all stats]
+EI	    Elixir of Ironskin              [30 resi]
+EHP	    Elixir of Healing Power         [50 healing]
+EMM	    Elixir of Major Mageblood       [16 mp5]
+EDW	    Elixir of Draenic Wisdom        [30 int 30 spirit]
+EMA	    Elixir of Major Agility         [35 agi 20 crit]
+EMS	    Elixir of Major Strength        [35 str]
+FSE	    Fel Strength Elixir             [90 atk power -10 stm]
+EDS	    Elixir of Demonslaying          [265 atk power vs demons]
+AE	    Adept's Elixir                  [24 spell dmg 24 spell crit]
+EMF	    Elixir of Major Firepower       [55 fire dmg]
+EMFP	Elixir of Major Frost Power     [55 frost dmg]
+EMSP	Elixir of Major Shadow Power    [55 shadow dmg]
+
+-------------------- Potion --------------------
+
+IP	    Ironshield Potion               [2500 armor 2min]
+HP	    Haste Potion                    [400 haste rating for 15 sec]
+ISP	    Insane Strength Potion          [120 str -75 def 15 sec]
+HP	    Heroic Potion                   [70 str 700 hp for 15 sec]
+DP	    Destruction Potion              [120 spell dmg 2% crit rating for 15 sec]
+SMP	    Super Mana Potion               [1800 to 3000 mana]
+SHP	    Super Healing Potion            [1500 to 2500 hp]
+
+-------------------- Food --------------------
+
+FF	    Fisherman's Feast               [30 stm 20 spi]
+SC	    Spicy Crawdad                   [30 stm 20 spi]
+GFS	    Golden Fish Sticks              [44 healing 20 spi]
+BS	    Blackened Sporefish             [8 mp5 20 stm]
+RC	    Roasted Clefthoof               [20 str 20 spi]
+SDD	    Smoked Desert Dumplings         [20 str]
+RD	    Ravager Dog                     [40 atk power 20 spi]
+GM	    Grilled Mudfish                 [20 agi 20 spi]
+WB	    Warp Burger                     [20 agi 20 spi]
+SHT	    Spicy Hot Talbuk                [20 hit rating 20 spi]
+BB	    Blackened Basilisk              [23 spell dmg 20 spi]
+PB	    Poached Bluefish                [23 spell dmg 20 spi]
+CS	    Crunchy Serpent                 [23 spell dmg 20 spi]
+SS	    Skullfish Soup                  [20 spell crit 20 spi]
+BBF	    Broiled Bloodfin                [8 all resi]
+KB	    Kibler's Bits                   [20 str 20 spi] [pet]
+SS	    Sporeling Snack                 [20 stm 20 spi] [pet]
+
+-------------------- Oil --------------------
+
+BMO	    Brilliant Mana Oil              [25 healing 12mp5]
+SMO	    Superior Mana Oil               [14 mp5]
+BWO	    Brilliant Wizard Oil            [36 spell dmg 14 spell crit]
+SWO	    Superior Wizard Oil             [42 spell dmg]
+
+-------------------- Herbs --------------------
+
+NS	    Nightmare Seed                  [2000 hp 30 sec]
+FC	    Flame Cap                       [80 fire spell dmg 40 fire dmg/hit]
+
+-------------------- Stones --------------------
+
+GWS	    Greater Ward of Shielding       [absorbs 4000 dmg]
+GRW	    Greater Rune of Warding         [25% absorbs 400 dmg]
+ASS	    Adamantite Sharpening Stone     [12 meele dmg 14 meele crit]
+AWS	    Adamantite Weightstone          [12 meele dmg 14 meele crit]
+
+-------------------- Drums --------------------
+
+DB	    Drums of Battle                 [80 spell haste 30 sec]
+DR	    Drums of Restoration            [600 hp and mana 15 sec]
+DW	    Drums of War                    [60 atk power 30 spell dmg 30 sec]
