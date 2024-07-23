@@ -55,14 +55,10 @@ vcod_receita=()
 vnx_receita=()
 i=0
 
-# Menu de opções
-echo "Calculadora de consumíveis Goblin Machine!"
-echo "v$version"
-
 # Lista Menu Inicial
 MenuInicial() {
-echo -e "\033[0;32mreceita  -   Criar lista de reagentes.\033[0m"
-echo -e "\033[0;32mexit     -   Sair da aplicação.\033[0m"
+    echo -e "\033[0;32mreceita  -   Criar lista de reagentes.\033[0m"
+    echo -e "\033[0;32mexit     -   Sair da aplicação.\033[0m"
 }
 
 # Lista Menu de Receitas
@@ -71,8 +67,17 @@ MenuReceitas() {
     vcod_receita+=("$cod_receita")
     read -p "Informe o número de unidades para esta receita: " nx_receita
     vnx_receita+=("$nx_receita")
-    read -p "Fazer outras receitas Sim (s) ou Não (n)?" mais_receita
+    read -p "Fazer outras receitas s/n?" mais_receita
 }
+
+# Calculando os reagentes
+CalcReagentes () {
+        
+}
+
+# Título
+echo "Calculadora de consumíveis Goblin Machine!"
+echo "v$version"
 
 # Menu Inicial
 while true; do
