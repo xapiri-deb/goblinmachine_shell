@@ -1,8 +1,0 @@
-FF,Flask of Fortification - [500 hp 10 def],1,Fel Lotus,3,Mana Thistle,7,Ancient Lichen,1,Imbued Vial
-FCW,Flask of Chromatic Wonder - [35 all resi 18 all stats],1,Fel Lotus,3,Netherbloom,7,Dreaming Glory,1,Imbued Vial
-FMR,Flask of Mighty Restoration - [25 mp5],1,Fel Lotus,3,Mana Thistle,7,Dreaming Glory,1,Imbued Vial
-FDW,Flask of Distilled Wisdom - [65 int],1,Black Lotus,3,Icecap,7,Dreamfoil,1,Crystal Vial
-FRA,Flask of Relentless Assault - [120 atk power],1,Fel Lotus,3,Mana Thistle,7,Terocone,1,Imbued Vial
-FBL,Flask of Blinding Light - [80 arcane holy nature dmg],1,Fel Lotus,3,Mana Thistle,7,Netherbloom,1,Imbued Vial
-FPD,Flask of Pure Death - [80 shadow fire frost dmg],1,Fel Lotus,3,Mana Thistle,7,Nightmare Vine,1,Imbued Vial
-FSP,Flask of Supreme Power - [70 spell dmg],1,Black Lotus,3,Mountain Silversage,7,Dreamfoil,1,Crystal Vial
