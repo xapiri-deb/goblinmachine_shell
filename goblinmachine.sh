@@ -53,7 +53,7 @@ mais_receita=""
 nx_receita=""
 vcod_receita=()
 vnx_receita=()
-i=0
+linha=()
 
 # Lista Menu Inicial
 MenuInicial() {
@@ -63,16 +63,21 @@ MenuInicial() {
 
 # Lista Menu de Receitas
 MenuReceitas() {
+        
     read -p "Informe o código da receita: " cod_receita 
     vcod_receita+=("$cod_receita")
+    
+    linha=$(grep -wi "$cod_receita" basedados.csv)
+    
+    if [[ -z $linha ]]; then
+        echo "Frasco não encontrado... Informe novamente"
+        return
+    fi
+    
     read -p "Informe o número de unidades para esta receita: " nx_receita
     vnx_receita+=("$nx_receita")
+    
     read -p "Fazer outras receitas s/n?" mais_receita
-}
-
-# Calculando os reagentes
-CalcReagentes () {
-        
 }
 
 # Título
@@ -114,7 +119,7 @@ while true; do
 
             else
 
-                echo "Opção inválida... Deseja fazer outras receitas Sim (s) ou Não (n)?"
+                echo "Opção inválida... "
 
             fi
 
