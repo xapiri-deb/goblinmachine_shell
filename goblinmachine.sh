@@ -57,17 +57,17 @@ i=0
 
 # Menu de opções
 echo "Calculadora de consumíveis Goblin Machine!"
-echo "v$version"    
+echo "v$version"
 
 # Lista Menu Inicial
 MenuInicial() {
-    echo "receita - Criar lista de reagentes."
-    echo "exit     - Encerrar sessão."
+echo -e "\033[0;32mreceita  -   Criar lista de reagentes.\033[0m"
+echo -e "\033[0;32mexit     -   Sair da aplicação.\033[0m"
 }
 
 # Lista Menu de Receitas
 MenuReceitas() {
-    read -p "Informe o código de uma receita: " cod_receita 
+    read -p "Informe o código da receita: " cod_receita 
     vcod_receita+=("$cod_receita")
     read -p "Informe o número de unidades para esta receita: " nx_receita
     vnx_receita+=("$nx_receita")
@@ -81,9 +81,10 @@ while true; do
     read -p "Digite uma das opções acima: " menu_inicial
     
     if [[ $menu_inicial == "receita" ]]; then
-            
-        echo "Lista de consumíveis:"
-        cat itens.txt
+
+        echo " "
+        cat lista.txt
+        echo " "
 
         # Menu de Receitas                   
         while true; do
