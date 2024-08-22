@@ -57,14 +57,14 @@ linha=()
 
 # Lista Menu Inicial
 MenuInicial() {
-    echo -e "\033[0;32mreceita  -   Criar lista de reagentes.\033[0m"
-    echo -e "\033[0;32mexit     -   Sair da aplicação.\033[0m"
+    echo -e "\033[0;32mreceita - Criar lista de reagentes.\033[0m"
+    echo -e "\033[0;32mexit    - Sair da aplicação.\033[0m"
 }
 
 # Lista Menu de Receitas
 MenuReceitas() {
         
-    read -p "Informe o código da receita: " cod_receita 
+    read -p "Informe o Código da receita: " cod_receita 
     vcod_receita+=("$cod_receita")
     
     linha=$(grep -wi "$cod_receita" basedados.csv)
@@ -74,10 +74,17 @@ MenuReceitas() {
         return
     fi
     
-    read -p "Informe o número de unidades para esta receita: " nx_receita
+    read -p "Informe o Número de unidades para esta receita: " nx_receita
     vnx_receita+=("$nx_receita")
     
     read -p "Fazer outras receitas s/n?" mais_receita
+    echo ""
+}
+
+# Lista de Receitas Selecionadas
+obter_nome_receita() {
+    id_receita=$1
+    grep -i "^$id_receita," basedados.csv | cut -d',' -f2
 }
 
 # Título
@@ -107,14 +114,18 @@ while true; do
                     
             elif [[ $mais_receita == "n" ]]; then
 
-                echo "Lista de Consumíveis solicitados"
+                echo "Receitas selecionadas:"
                     
-                # Lista de Resultados
-                for receita in "${vcod_receita[@]}"; do
-                    
-                    echo "Calculando reagentes necessários para $receita"
-                                            
+                for id in "${vcod_receita[@]}"; do
+                    nome_receita=$(obter_nome_receita "$id")
+                    echo "$nome_receita"
                 done
+
+                echo ""
+
+                # Lista de Resultados
+                echo "Calculando reagentes necessários..."
+                                    
                 break
 
             else
